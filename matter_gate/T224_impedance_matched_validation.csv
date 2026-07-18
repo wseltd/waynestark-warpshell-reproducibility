@@ -1,0 +1,11 @@
+check,result,interpretation
+decomposition K T = P K T + Q K T,"||P K T|| = 3.6410, ||Q K T|| = 8.9016, E_total = 92.4950",baseline split
+Bode-Fano-style filter F applied to T,"after filter: ||P K T'|| = 2.7548, ||Q K T'|| = 8.9016, E'_total = 86.8271",synthetic impedance-matched-style cancellation
+ratio residual after / before,1.0000,Q-projected response not amplified by simple Bode-Fano-style cancellation in random K
+ratio control after / before,0.7566,P-projected response was reduced; this is exactly what P_controls already represents
+is cancellation absorbed by P_controls,no,"if yes, the gain is attributed to P_controls rebooking, not new physics in Q"
+support / boundary / control / apparatus / pump energy ledger,GAP,no dedicated impedance-matched ticket has computed the support / boundary / pump energy required to maintain the filter
+double-counting check vs K_design / topological / oscillator / active_pump,GAP,no dedicated ticket has shown that impedance-matched mechanism is orthogonal to the four T213/T215 mechanisms
+measured gamma from Bode-Fano cancellation,1.0321,"measured gamma = 1.032, vs claimed gamma=2.00; brief estimate is NOT supported by this synthetic test"
+C impact if measured gamma replaced claimed gamma,T218 robust C = 59.81 would shrink by factor 0.516,C = 59.81 does NOT survive measured-gamma substitution
+VERDICT,IMPEDANCE_MATCHED_NOT_VALIDATED,cancellation of h_control absorbed by P_controls; gamma=2.0 is not validated as new audit-chain gain

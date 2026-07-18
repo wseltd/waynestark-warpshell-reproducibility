@@ -1,0 +1,11 @@
+{
+  "n_snapshots": 160,
+  "numerical_rank": 160,
+  "train": 128,
+  "val": 32,
+  "tau0_recon_err_POD64": 0.6490467742741879,
+  "heldout_recon_med": 0.49565453929196635,
+  "heldout_recon_max": 0.6254265380498037,
+  "principal_angle_min_deg": 0.12672923823266924,
+  "principal_angle_max_deg": 89.66098246901555
+}

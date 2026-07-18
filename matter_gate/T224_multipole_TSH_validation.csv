@@ -1,0 +1,9 @@
+check,result,n_hits,interpretation
+T170.1 / T170.3 / TSH basis search,T221_C_ladder_provenance_arithmetic_and_mechanism_certification_audit/T221_mechanism_confidence_tier.csv;T221_C_ladder_provenance_arithmetic_and_mechanism_certification_audit/T221_safe_wording_for_report.csv;T221_C_ladder_provenance_arithmetic_and_mechanism_certification_audit/T221_T218_modeB_chain_reproduction.csv;T221_C_ladder_provenance_arithmetic_and_mechanism_certification_audit/compute_T221_audit.py;T221_C_ladder_provenance_arithmetic_and_mechanism_certification_audit/T221_C_ladder_confidence_reassignment.csv,53,no separate TSH residual basis ticket found in repo; cannot upgrade gamma
+synthetic TSH residual ledger,E_total = 16.6080; E_in_P_controls (l<=2) = 8.2407; E_in_Q (l>=3) = 8.3673,-1,"Q residual fraction = 0.504, P fraction = 0.496"
+measured gamma proxy from Q residual,sqrt(E_Q/E_total) = 0.7098,-1,Q-projected residual yields gamma proxy < 1.0 in this synthetic test; gamma=1.5 from professor brief is NOT supported by a dedicated audit-chain projection
+conservation check,TSH residual is divergence-free if source is conservative; not separately implemented in any prior ticket,-1,GAP
+P_controls absorption check,E_in_P_controls / E_total = 0.496 (l<=2 absorbed by canonical P_controls),-1,ordinary monopole / dipole / quadrupole absorbed by canonical projector; only l>=3 survives
+"K, Q, W convention applicability","no audit-chain operator (K, Q, W) supplies a TSH-based measurement at present",-1,FULL_BASIS_REQUIRED
+C impact if measured gamma applied,"if gamma_meas = 0.710 replaced gamma=1.5, the T218 chain product would shrink",-1,C = 59.81 would NOT survive the substitution
+VERDICT,MULTIPOLE_TSH_FULL_BASIS_REQUIRED,-1,no dedicated TSH-residual audit-chain measurement exists; gamma=1.5 is unsupported

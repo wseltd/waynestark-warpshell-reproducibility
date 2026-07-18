@@ -1,0 +1,15 @@
+architecture,valid_subscale_similarity_exists_yes_no,subscale_test_article_possible_yes_no,coupon_test_relevant_yes_no,qualification_by_similarity_possible_yes_no,analysis_only_limit,AIV_route_exists_yes_no,inspection_route_exists_yes_no,maintenance_route_exists_yes_no,failure_review_trigger,human_exclusion_zone_required_yes_no,near_surface_station_keeping_possible_yes_no,attitude_control_physically_plausible_yes_no,source_matter_qualification_status,support_system_qualification_status,verdict
+source_matter,no,no,no,no,n/a,no,no,no,n/a,yes,no,no,NOT_QUALIFIABLE,n/a,NO_VALID_SUBSCALE_TEST_NO_QUALIFICATION_ROUTE_FOR_SOURCE_MATTER
+structural_support_shell,yes,yes,yes,yes,GEVS limit per loads-envelope,yes,yes,yes,FMEA/FTA,yes,no,no,n/a,QUALIFIABLE_SUPPORT_HARDWARE,STANDARDS_APPLY_TO_AUXILIARIES_ONLY
+tension_membrane_support,yes,yes,yes,yes,GEVS limit per loads-envelope,yes,yes,yes,FMEA/FTA,yes,no,no,n/a,QUALIFIABLE_SUPPORT_HARDWARE,STANDARDS_APPLY_TO_AUXILIARIES_ONLY
+lattice_metamaterial_support,yes,yes,yes,yes,GEVS limit per loads-envelope,yes,yes,yes,FMEA/FTA,yes,no,no,n/a,QUALIFIABLE_SUPPORT_HARDWARE,STANDARDS_APPLY_TO_AUXILIARIES_ONLY
+EM_auxiliary_HTS,yes,yes,yes,yes,GEVS limit per loads-envelope,yes,yes,yes,FMEA/FTA,yes,no,no,n/a,QUALIFIABLE_SUPPORT_HARDWARE,STANDARDS_APPLY_TO_AUXILIARIES_ONLY
+EM_auxiliary_LTS_SRF,yes,yes,yes,yes,GEVS limit per loads-envelope,yes,yes,yes,FMEA/FTA,yes,no,no,n/a,QUALIFIABLE_SUPPORT_HARDWARE,STANDARDS_APPLY_TO_AUXILIARIES_ONLY
+dielectric_auxiliary,yes,yes,yes,yes,GEVS limit per loads-envelope,yes,yes,yes,FMEA/FTA,yes,no,no,n/a,QUALIFIABLE_SUPPORT_HARDWARE,STANDARDS_APPLY_TO_AUXILIARIES_ONLY
+thermal_radiator,yes,yes,yes,yes,GEVS limit per loads-envelope,yes,yes,yes,FMEA/FTA,yes,no,no,n/a,QUALIFIABLE_SUPPORT_HARDWARE,STANDARDS_APPLY_TO_AUXILIARIES_ONLY
+power_routing,yes,yes,yes,yes,GEVS limit per loads-envelope,yes,yes,yes,FMEA/FTA,yes,no,no,n/a,QUALIFIABLE_SUPPORT_HARDWARE,STANDARDS_APPLY_TO_AUXILIARIES_ONLY
+control_electronics,yes,yes,yes,yes,GEVS limit per loads-envelope,yes,yes,yes,FMEA/FTA,yes,no,no,n/a,QUALIFIABLE_SUPPORT_HARDWARE,STANDARDS_APPLY_TO_AUXILIARIES_ONLY
+instrumentation,yes,yes,yes,yes,GEVS limit per loads-envelope,yes,yes,yes,FMEA/FTA,yes,no,no,n/a,QUALIFIABLE_SUPPORT_HARDWARE,STANDARDS_APPLY_TO_AUXILIARIES_ONLY
+assembly_logistics,yes,yes,yes,yes,GEVS limit per loads-envelope,yes,yes,yes,FMEA/FTA,yes,no,no,n/a,QUALIFIABLE_SUPPORT_HARDWARE,STANDARDS_APPLY_TO_AUXILIARIES_ONLY
+station_keeping_thrusters,yes,no,yes,no,GEVS limit per loads-envelope,yes,no,no,FMEA/FTA,yes,no,no,NOT_QUALIFIABLE,ANALYSIS_ONLY,ANALYSIS_ONLY_NOT_QUALIFIABLE
+fault_dispersal_safety_kit,yes,no,yes,no,GEVS limit per loads-envelope,yes,no,no,FMEA/FTA,yes,no,no,NOT_QUALIFIABLE,ANALYSIS_ONLY,ANALYSIS_ONLY_NOT_QUALIFIABLE

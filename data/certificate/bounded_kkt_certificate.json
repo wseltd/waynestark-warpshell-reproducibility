@@ -1,0 +1,39 @@
+{
+  "generated": "2026-06-24",
+  "source_script": "compute_T170_1_pipeline.py (T170_1)",
+  "observable": "delta_H",
+  "sign": -1,
+  "N_r": 32,
+  "N_vars": 2880,
+  "n_eq": 128,
+  "n_ineq": 23809,
+  "recorded_C_baseline": 5.826049575311591,
+  "reconstructed_C_baseline_B1p5": 5.826049575311591,
+  "box_bounds": [
+    -1.5,
+    1.5
+  ],
+  "note": "b_eq=0; SciPy minimises -ell^T tau (max-form ell=-c).",
+  "baseline_B1p5": {
+    "B": 1.5,
+    "status": 0,
+    "C_baseline": 5.826049575311591,
+    "obj_max": 15.897143289973453,
+    "active_lower": 6,
+    "active_upper": 40,
+    "eq_residual": 8.913009219568835e-15,
+    "ineq_slack_min": -4.222420676991412e-11,
+    "stationarity_bounded": 1.1931312422618868e-14,
+    "stationarity_bare": 1.2465283604165054,
+    "primal_dual_gap": 2.0605739337042905e-13,
+    "dual_obj_full": -15.89714328997324,
+    "dual_obj_no_bound": -0.9659983234944471,
+    "primal_minus_dual_nobound": 14.931144966479,
+    "comp_slack_ineq": 2.943167353673049e-14,
+    "comp_slack_lower": 0.0,
+    "comp_slack_upper": 0.0
+  },
+  "cap_free_C_baseline": 13.07469188168842,
+  "finding": "C_baseline is cap-controlled at B=1.5 (box active); cap-free cone optimum ~13.07 (box inactive at B>=5).",
+  "solver": "scipy.optimize.linprog method=highs (scipy 1.17.1)"
+}

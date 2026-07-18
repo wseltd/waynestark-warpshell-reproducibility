@@ -1,0 +1,15 @@
+# WarpShell reproducibility -- pinned environment (Python 3.13).
+#
+# scipy is LOAD-BEARING: the HiGHS build inside scipy 1.17.1 reproduces C_LP to the last
+# digit, and scipy.special.sph_harm_y (scipy >= 1.15) is used by the basis generator.
+# numpy is used for the deterministic matrix construction and the reduced-model SVD/eig.
+# pandas is used only for CSV/table I/O (not for any certified value).
+numpy==2.4.4
+scipy==1.17.1
+pandas==3.0.2
+
+# Optional -- NOT required for the core certificate, reduced ladder, or matter gate:
+#   matplotlib          # figure regeneration only
+#   CompactObject-TOV   # full T224 polytrope-TOV leg (non-decisive; returned NaN in the frozen run;
+#                       # the decisive matter-gate result is reproduced dependency-free by
+#                       # matter_gate/verify_matter_gate.py)

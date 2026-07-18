@@ -1,0 +1,14 @@
+role,support_role_possible_yes_no,ordinary_materials_relevant_yes_no,source_mass_relevant_yes_no,minimum_test_article_possible_yes_no,tool_needed,recommended_followup_ticket,risk_level,main_blocker,verdict
+structural_support_lattice,yes,yes,no,yes,FEniCSx / CalculiX,T_supportshell_design,low,buckling_at_self_grav_load,SUPPORT_SYSTEM_PLAUSIBLE_AS_AUXILIARY_ONLY
+radiators,yes,yes,no,yes,thermal FE + radiation balance,T_thermal_radiator_design,low,view_factor_environment,SUPPORT_SYSTEM_PLAUSIBLE_AS_AUXILIARY_ONLY
+power_distribution,yes,yes,no,yes,EEE analysis (NASA-HDBK-4002B),T_power_routing_design,low,radiation_charging,SUPPORT_SYSTEM_PLAUSIBLE_AS_AUXILIARY_ONLY
+cryogenic_systems,yes,yes,no,yes,TVAC + cryo thermal model,T_cryo_subsystem_design,med,heat_leak_quench,SUPPORT_SYSTEM_PLAUSIBLE_AS_AUXILIARY_ONLY
+superconducting_loops,yes,yes,no,yes,REBCO / Nb3Sn quench model,T_HTS_or_LTS_design,med,quench,SUPPORT_SYSTEM_PLAUSIBLE_AS_AUXILIARY_ONLY
+sensor_arrays,yes,yes,no,yes,EM analysis + acceptance test,T_instrumentation_design,low,EMI_radiation,SUPPORT_SYSTEM_PLAUSIBLE_AS_AUXILIARY_ONLY
+attitude_station_keeping,yes,yes,no,no,many-body + orbital fundamentals,T_ops_attitude_design,high,actuator_authority_near_surface,SUPPORT_SYSTEM_PLAUSIBLE_AS_AUXILIARY_ONLY
+control_electronics,yes,yes,no,yes,EEE + radiation hardness,T_control_electronics_design,low,SEU_radiation,SUPPORT_SYSTEM_PLAUSIBLE_AS_AUXILIARY_ONLY
+inspection_robots,yes,yes,no,yes,robotics + ECSS-Q-ST-70-15C,T_inspection_robot_design,med,near-source_environment,SUPPORT_SYSTEM_PLAUSIBLE_AS_AUXILIARY_ONLY
+service_gantries,yes,yes,no,yes,structural FE + AIV,T_gantry_design,low,self_grav_load,SUPPORT_SYSTEM_PLAUSIBLE_AS_AUXILIARY_ONLY
+segmented_assembly_interfaces,yes,yes,no,yes,mechanism design + ECSS,T_assembly_iface_design,med,mating_under_load,SUPPORT_SYSTEM_PLAUSIBLE_AS_AUXILIARY_ONLY
+plasma_or_EM_auxiliary_systems,yes,yes,no,yes,MHD + control,T_plasma_aux_design,high,stability_lifetime,SUPPORT_SYSTEM_PLAUSIBLE_AS_AUXILIARY_ONLY
+field_monitoring_instrumentation,yes,yes,no,yes,sensor + EM analysis,T_field_monitor_design,low,calibration_in_high-g_environment,SUPPORT_SYSTEM_PLAUSIBLE_AS_AUXILIARY_ONLY

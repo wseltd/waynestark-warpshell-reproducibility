@@ -1,0 +1,21 @@
+claim,status,reason_or_qualifier
+C = 6.39 is certified fixed-K anchor,KEEP,"T212/T214/T215 lock this in fixed (K, Q, W) class"
+C = 26.12 is strongest defensible changed-operator numerical result,KEEP_WITH_QUALIFIER,"must be qualified as changed-operator branch-LP, not certificate-class"
+C = 59.81 is partially estimated unless T224 validates missing mechanisms,REWRITE,T224 mechanism validation result
+C = 133.99 is singular-risk unless T224 validates regularised_extremiser,REWRITE,T224 regularised_extremiser verdict
+WarpFactory validates geometry only,KEEP,verbatim fact
+WarpFactory does not validate C,KEEP,verbatim fact
+WarpFactory does not validate material feasibility,KEEP,verbatim fact
+ordinary materials cannot realise source matter,KEEP,T222 result; reinforced by T224 EOS / TOV
+ordinary materials may be relevant to support and auxiliary systems,KEEP,T222 + T224 support audit
+EOS / TOV is the next physics gate,KEEP,T222 recommendation; T224 ran the gate
+Buchdahl safe does not mean material feasible,KEEP,Arrechea 2024; T224 lock
+"C R^2 = 10^6 km^2 is scaling / bookkeeping, not new physics",KEEP,verbatim fact
+"the work is source-first GR response auditing, not buildable warp propulsion",KEEP,verbatim fact
+"the architecture drawing is schematic, not construction design",KEEP,T223 verbatim
+regolith / asteroid material is sufficient as source matter,FORBIDDEN,T222: 0 of 36 classes reach source density; T224 EOS / TOV no support
+MatterGen / MatterSim / CHGNet / MACE solves source matter,FORBIDDEN,atomistic regime; pressure envelopes ~19 orders below requirement
+metamaterials / superconductors solve source matter,FORBIDDEN,auxiliary EM only
+lab-scale CNT / diamond extrapolates to km-scale source matter,FORBIDDEN,no manufacturing route at km scale
+known ordinary materials are sufficient in principle as source matter,FORBIDDEN,no EOS proof
+the remaining problem is just mass handling,FORBIDDEN,"primary blocker is EOS, not mass logistics"

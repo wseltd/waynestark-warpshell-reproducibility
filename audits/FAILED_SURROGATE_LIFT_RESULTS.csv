@@ -1,0 +1,16 @@
+quantity,value,status
+classification,D,MAPPING_NOT_ESTABLISHED
+reason,no_common_full_order_source_to_response_operator,
+C_LP_0,5.826049575311591,frozen_full_certificate
+C_LP_surrogate,6.871157598,surrogate_lift_NOT_a_mechanism_certificate
+g_LP_surrogate,1.1793853637,surrogate_gain_NOT_a_bridge
+r_S,1.1551834738986104,frozen_reduced_spectral_ratio
+relative_numerical_difference,0.02052117,surrogate_coincidence_only
+orthogonality_ratio_0,8.0e-17,frozen_ell0_correctly_orthogonal
+orthogonality_ratio_surrogate,7.83e-2,control_components_reintroduced
+relative_objective_perturbation,0.437,ad_hoc_lift
+cosine_similarity,0.926,
+s2_control_gain,2.000000,scalar_plumbing_check_only
+norm_b_code_w_gamma,10.00,used_by_code_and_frozen_rS_and_lift
+norm_b_manuscript_w_gamma2,0.050,manuscript_error_NOT_used
+b_norm_ratio,200,

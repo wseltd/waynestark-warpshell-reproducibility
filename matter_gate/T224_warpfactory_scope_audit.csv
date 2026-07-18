@@ -1,0 +1,8 @@
+claim,WarpFactory_validates,domain,evidence
+verifyTensor checks Einstein-tensor / energy-tensor consistency,yes,geometry,T220 verifyTensor PASS for all 5 cases; T224 sanity rerun PASS for C = 26.12 and C = 59.81
+verifyTensor validates the response coefficient C,no,"audit_chain (Q, K, W)",verifyTensor has no representation of P_controls / K / W; C is set in T210 / T212 / T214 / T215 audit-chain tickets
+verifyTensor validates EOS support,no,EOS / TOV,"WarpFactory does not import P(rho), causality, or dP/drho stability gates"
+verifyTensor validates material realisation,no,material,T220 / T222: 0 of 36 candidate ordinary material classes can reach the source density
+verifyTensor validates Buchdahl safety,partial,geometry,Buchdahl safety = r_s/R < 8/9 is a separate compactness check; T220 / T224 confirm r_s/R = 0.40 (< 8/9)
+verifyTensor validates horizon avoidance,yes,geometry,all 5 cases at r_s/R = 0.40 < 1 (no horizon)
+verifyTensor PASS imply mechanism gamma is correct,no,audit_chain,mechanism gammas are independent operator-side bookkeeping; not seen by verifyTensor

@@ -1,0 +1,24 @@
+claim,status
+regolith can build the source,FORBIDDEN
+asteroid material is sufficient as source matter,FORBIDDEN
+planetary matter is sufficient as source matter,FORBIDDEN
+MatterGen solves the source matter problem,FORBIDDEN
+MatterSim solves the source matter problem,FORBIDDEN
+CHGNet solves the source matter problem,FORBIDDEN
+MACE solves the source matter problem,FORBIDDEN
+Buchdahl-safe means feasible,FORBIDDEN
+WarpFactory validates C,FORBIDDEN
+WarpFactory validates material feasibility,FORBIDDEN
+metamaterials solve the source matter problem,FORBIDDEN
+superconductors solve the source matter problem,FORBIDDEN
+lab-scale CNT or diamond results extrapolate to km-scale source matter,FORBIDDEN
+known ordinary materials are sufficient in principle as source matter,FORBIDDEN
+the remaining problem is just mass handling,FORBIDDEN
+"audit-chain certifies C = 6.39 as fixed-(K,Q,W) anchor",KEEP
+changed-operator branch-LP results give C up to 26.12 (T217),KEEP_WITH_QUALIFIER
+WarpFactory verifyTensor PASS for all 5 cases,KEEP
+source mass is stellar-scale (11.7-53.8 M_sun),KEEP
+source density is compact-object scale (4e14 to 9e15 kg/m^3 mean),KEEP
+ordinary materials relevant only to support / auxiliary subsystems,KEEP
+dominant blocker is mass / compactness / self-gravity / EOS / pressure support / operations,KEEP
+future tickets must close EOS / TOV gate before any source-matter design,KEEP

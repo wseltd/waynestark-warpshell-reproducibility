@@ -1,0 +1,14 @@
+node,condition,outcome
+ROOT,ladder built from T220 / T221 / T222,T224 starts
+01,MATLAB ran?,yes (verifyTensor PASS for C=26.12 and C=59.81 sanity)
+02,Python and MATLAB agree?,yes to 1.5e-4 rel error
+03_TSH,multipole_TSH gamma measured?,MULTIPOLE_TSH_FULL_BASIS_REQUIRED
+04_IMP,impedance_matched gamma measured?,IMPEDANCE_MATCHED_NOT_VALIDATED
+05_REG,regularised_extremiser gamma measured?,REGULARISED_EXTREMISER_PEAK_ONLY
+06_C_LADDER,C ladder after mechanism validation,C_LADDER_COLLAPSES_TO_26P12
+07_WARPFACTORY,WarpFactory validates C or material?,no - geometry only
+08_BUCHDAHL,Buchdahl-safe means feasible?,no - independent gates
+09_EOS,any known EOS supports any ladder case?,no - polytrope and Rhoades-Ruffini bounds far below ladder masses
+10_SUPPORT,support systems qualifiable?,yes - SUPPORT_SYSTEM_PLAUSIBLE_AS_AUXILIARY_ONLY
+11_GRANT,grant language cleanup required?,yes - 6 forbidden claims plus brief-estimated mechanism qualifiers
+12_NEXT_TICKET,what's next?,T225_EOS_TOV_anisotropic_and_grant_language_lock OR T_supportshell_design (separate)
