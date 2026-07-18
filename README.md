@@ -88,9 +88,13 @@ exact frozen inputs first: `sha256sum -c MANIFEST.sha256`.
   reduced indices are sensitivity quantities, never claimed equal to `C_LP`.
 - The baseline constrained reduction is a **B-level** feasible lower-bound surrogate (~3.6–5%), not
   a high-accuracy replacement (`bridges/`).
-- **MATLAB / WarpFactory cross-checks** (verifyTensor, cross-solve, grid convergence) are *not*
-  in this repo — they need a MATLAB licence + WarpFactory (commit `03b10cb0`) and are run
-  separately; the pure-Python paths above stand alone.
+- **MATLAB / WarpFactory cross-checks** are in `matlab/` (`export_certificate_mat.py` +
+  `warpshell_matlab_check.m`): the `C_LP` cross-solve on the repo's own matrices, `verifyTensor`
+  PASS for the two clean shells, and ρ_peak grid convergence. They need a MATLAB licence +
+  WarpFactory (`export WARPFACTORY_PATH=...`, commit `03b10cb0`). **Validated against the v18
+  frozen results** (C_LP MATLAB 5.825968, rel.diff 1.4e-5; verifyTensor PASS, h_tt 0.5047;
+  ρ_peak matches to ~1e-7 across N=24/32/48) — see `matlab/MATLAB_REPRODUCTION.txt`. The
+  pure-Python paths above stand alone without MATLAB.
 - `matter_gate/compute_T224_audit.py`'s γ=2 polytrope-TOV leg uses the optional `CompactObject-TOV`
   package (it returned NaN in the frozen run and is not decisive); the decisive causal-bound leg is
   reproduced dependency-free by `verify_matter_gate.py`.

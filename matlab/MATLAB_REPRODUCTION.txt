@@ -1,0 +1,8 @@
+WarpShell MATLAB/WarpFactory reproduction (repo data)  MATLAB 26.1.0.3203278 (R2026a)
+[Part 1: C_LP cross-solve] MATLAB=5.825968  HiGHS=5.826049575  rel.diff=1.40e-05  exitflag=1  (frozen v18: 5.825968, 1.4e-5)
+[Part 2: clean_joint_C10.44] verifyTensor=PASS  h_tt_max=5.0474e-01  rho_peak=1.7467e+15  (frozen 1.7466e+15, rel.diff 2.9e-05)  M=41.91 Msun
+[Part 2: clean_retained_C21.18] verifyTensor=PASS  h_tt_max=5.0474e-01  rho_peak=3.5433e+15  (frozen 3.5433e+15, rel.diff 1.5e-07)  M=29.42 Msun
+[Part 3: grid N=24] verifyTensor=PASS  h_tt_max=5.0474e-01  rho_peak=3.543299e+15  (frozen 3.543299e+15, rel.diff 1.4e-07)
+[Part 3: grid N=32] verifyTensor=PASS  h_tt_max=5.0474e-01  rho_peak=3.171132e+15  (frozen 3.171132e+15, rel.diff 9.6e-08)
+[Part 3: grid N=48] verifyTensor=PASS  h_tt_max=5.0474e-01  rho_peak=3.642097e+15  (frozen 3.642097e+15, rel.diff 3.6e-08)
+DONE
