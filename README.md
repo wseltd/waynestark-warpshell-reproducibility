@@ -5,8 +5,10 @@ Positive-Energy Warp-Shell Geometries: Boxed LP Certificates, Reduced-Operator S
 and Source-Realisation Gates* (v18). Everything here runs from source; the load-bearing
 inputs are frozen and hash-anchored.
 
-**What the paper is (and is not).** It defines a continuum response coefficient `C[T]` (never
-evaluated), then studies two *mathematically distinct* finite objects: (1) a boxed 2880-variable
+**What the paper is (and is not).** It defines a continuum response coefficient `C[T]` as the
+theoretical target. The paper deliberately does **not** compute `C[T]` itself -- evaluating the
+continuum supremum rigorously is future work -- and instead studies two *mathematically distinct*
+finite objects that probe it: (1) a boxed 2880-variable
 LP with a bounded-variable KKT certificate, `C_LP = 5.826049575311591`; and (2) a separate
 32-dimensional reduced spectral model giving calibrated indices `I_S`. Under an illustrative
 scale mapping it reconstructs one conditional source scale and shows no ordinary compact-object
