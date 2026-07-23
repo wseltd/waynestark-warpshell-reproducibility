@@ -80,7 +80,7 @@ Python 3.13, **scipy 1.17.1** (the HiGHS build fixes the last digit of `C_LP`, a
 Path A/B still reproduce `C_LP` to ~1e-9 but not necessarily bit-for-bit. Verify you have the
 exact frozen inputs first: `sha256sum -c MANIFEST.sha256`.
 
-## Honest scope / caveats (these are results too)
+## Honest scope / caveats
 
 - The finite LP's energy-condition rows are **sampled stress-cone surrogates**, not exact
   covariant NEC/WEC/DEC. `cq8c` shows the LP optimum satisfies the exact pointwise conditions at
